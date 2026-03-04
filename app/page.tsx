@@ -5,6 +5,7 @@ import DailyPrograms from "@/components/DailyPrograms";
 import LocationCard from "@/components/LocationCard";
 import GetInvolved from "@/components/GetInvolved";
 import Footer from "@/components/Footer";
+import OtherWebsites from "@/components/OtherWebsites";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <DailyPrograms />
         <LocationCard />
         <GetInvolved />
+        <OtherWebsites />
       </main>
 
       <Footer />
